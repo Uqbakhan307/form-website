@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0e1dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F031%2F624%2F657%2Fsmall_2x%2Fyellow-flowers-in-a-vase-on-a-green-background-ai-generated-photo.jpg&tbnid=ZEuPqYDfApBorM&vet=1&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fgreen-background&docid=PPHz4kr2ULLUVM&w=700&h=400&itg=1&source=sh%2Fx%2Fim%2Fm4%2F2&kgs=4ff66d316843431f&shem=abme%2Ctrie#imgrc=U_7rkSx_O8uu2M&imgdii=ZEuPqYDfApBorM') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #6fce97;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #6fce97;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.register-link {
+    margin-top: 20px;
+}
+
+.register-link p {
+    font-size: 14px;
+    color: #333;
+}
+
+.register-link a {
+    color: #6fce97;
+    text-decoration: none;
+}
+
+</style>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="">
+                <div class="input-group">
+             <strong><label for="username">Username</label></strong>
+                    <input type="text" id="username" name="username" placeholder="username" required>
+                </div>
+                <div class="input-group">
+              <strong>      <label for="password">Password</label></strong>
+                    <input type="password" id="password" name="password" placeholder="password" required>
+                </div>
+                <div class="input-group">
+             <strong><label for="email">email</label></strong>
+                <input type="email" id="email" name="email" placeholder="email" required>
+                </div>
+                
+                <div class ="input-group">
+               <strong> <label for="date of birth">date of birth</label></strong>
+                <input type="date" id="date" name="date" placeholder="18/6/2024" required>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
