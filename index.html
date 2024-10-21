@@ -34,7 +34,7 @@ body {
 
 .login-box {
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     width: 320px;
@@ -42,7 +42,7 @@ body {
 }
 
 .login-box h2 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 24px;
     color: #333;
 }
@@ -108,35 +108,41 @@ body {
 <body>
     <div class="login-container">
         <div class="login-box">
-            <h2>login</h2>
+            <h2>Signup</h2>
             <form action="">
-            <div class="input-group">
-            <strong><label for="Username">Username</label></steong>
-            <input type="Username" id="username" name="username" placeholder="username" required>
-            </div>
-            <div class="input-group">
-         <strong>   <label for="email">email</label></strong>
+                <div class="input-group">
+             <strong><label for="username">Username</label></strong>
+                    <input type="text" id="username" name="username" placeholder="username" required>
+                </div>
+                <div class="input-group">
+              <strong>      <label for="password">password</label></strong>
+                    <input type="password" id="password" name="password" placeholder="password" required>
+                </div>
+                <div class="input-group">
+             <strong><label for="email">email</label></strong>
                 <input type="email" id="email" name="email" placeholder="email" required>
                 </div>
-            
                 
+                <div class ="input-group">
+               <strong> <label for="date of birth">date of birth</label></strong>
+                <input type="date" id="date" name="date" placeholder="18/6/2024" required>
+                </div>
                 <div class="input-group">
-              <strong>      <label for="password">Password</label></strong>
-                    <input type="password" id="password" name="password" placeholder="password"required>
+                <strong><legend><label for="gender">Gender</label>
+                    
+                    <input type="radio" id="radio" name="radio">male
+                    <input type="radio" id="radio" name="radio">female
+                    <input type="radio" id="radio" name="radio">Other
                     </div>
                     
-                    
-                <div class="forgot-password">
-               
+               <br />
                 
-               
-               
+                <div class="forgot-password">
                     <a href="#">Forgot password?</a>
                 </div>
-                <button type="submit" class="login-btn">login</button>
+                <button type="submit" class="login-btn">signup</button>
                 <div class="register-link">
-                    <p>Don't have an account? <a href="https://uqbakhan307.github.io/form-website"/>signup</a></p>
-               
+                    <p>Do you have an account? <a href="https://uqbakhan307.github.io/form-website/">Login</a></p>
                 </div>
             </form>
         </div>
@@ -144,4 +150,6 @@ body {
 </body>
 
 </html>
+
+
 
